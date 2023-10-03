@@ -22,7 +22,7 @@ export default class AnimaNumeros {
   }
 
   animaNumeros() {
-    this.numeros.forEach(numero => this.constructor.incrementarNumero(numero));
+    this.numeros.forEach((numero) => this.constructor.incrementarNumero(numero));
   }
 
   handleMutation(mutation) {
