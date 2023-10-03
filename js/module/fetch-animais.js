@@ -1,6 +1,7 @@
 import AnimaNumeros from './anima-numeros.js';
 
 export default function fetchAnimais(url, target) {
+  console.log(url);
   function createAnimal(animal) {
     const div = document.createElement('div');
     div.classList.add('numero-animal');
